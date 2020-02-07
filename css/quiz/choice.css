@@ -1,0 +1,35 @@
+body {
+    position: absolute;
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+    margin : 0;
+}
+
+.linespot {
+    position: absolute;
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+    width : 1010px;
+    height : 685px;
+	top:0px; left:0px;
+}
+
+.linespot > #movBox {
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    margin : 0;
+	background-color:#0f0f0f;
+}
+
+ #closeBtn {
+    display:none;
+	position : absolute;
+	right:0px;	top:0px;
+}
+
+.linespot > .guideTxt{
+	position:absolute;
+	width:563px; height:34px;
+	left:39px; top:48px;
+}

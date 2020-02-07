@@ -1,0 +1,42 @@
+body{
+    position: absolute;
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+    margin : 0;
+}
+
+.linespot{
+    position: absolute;
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+    width : 1010px;
+    height : 685px;
+	top:0px; left:0px;
+}
+
+.linespot > .pointer{
+    cursor : pointer;
+}
+
+.linespot > #line{
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    margin : 0;
+}
+
+.linespot > #line > #myCanvas{
+    position : absolute;
+}
+
+.linespot > .confirm{
+    position: absolute;
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+    width : 100%;
+    height : 100%;
+    display : none; 
+    z-index : 500;
+}
+
+

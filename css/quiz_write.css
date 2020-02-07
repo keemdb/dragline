@@ -1,0 +1,131 @@
+@charset "utf-8";
+@import url(font.css);
+/* CSS Document */
+*{margin:0; padding:0;}
+
+body{width:1010px; height:685px; position:relative;}
+.t_q_wrap1{width:100%; height:100%; background:url(../img/write/write_bg1.png);}
+.t_q_wrap2{width:100%; height:100%; background:url(../img/write/write_bg2.png);}
+.t_q_wrap3{width:100%; height:100%; background:url(../img/write/write_bg3.png);}
+textarea{
+    -ms-user-select:none; -moz-user-select:-moz-none; -webkit-user-select:none; -khtml-user-select:none; user-select:none;
+    resize:none;
+}
+
+.text1_1{
+    width:115px; height:36px;
+    position:absolute;
+    top:538px; left:315px;
+    overflow:hidden; background:transparent;
+    outline:none; border:none; font-size:29px;
+    font-family:"NanumSquareR"; font-weight:700;
+    letter-spacing: 27px;
+}
+
+.text2_1{
+    width:165px; height:36px;
+    position:absolute;
+    top:538px; left:396px;
+    overflow:hidden;  background:transparent;
+    outline:none; border:none; font-size:29px;
+    font-family:"NanumSquareR"; font-weight:700;
+    letter-spacing:27px;
+}
+
+.text2_2{
+    width:44px; height:36px;
+    position:absolute;
+    top:538px; left:573px;
+    overflow:hidden;  background:transparent;
+    outline:none; border:none; font-size:29px;
+    font-family:"NanumSquareR"; font-weight:700;
+    letter-spacing:25px;
+}
+
+.text3_1{
+    width:110px; height:36px;
+    position:absolute;
+    top:538px; left:243px;
+    overflow:hidden; background:transparent;
+    outline:none; border:none; font-size:29px;
+    font-family:"NanumSquareR"; font-weight:700;
+    letter-spacing: 25px;
+}
+
+.text5_1{
+    width:53px; height:36px;
+    position:absolute;
+    top:546px; left:112px;
+    overflow:hidden;  background:transparent;
+    outline:none; border:none; font-size:29px;
+    font-family:"NanumSquareR"; font-weight:700;
+    letter-spacing:27px;
+}
+
+.text5_2{
+    width:110px; height:36px;
+    position:absolute;
+    top:546px; left:235px;
+    overflow:hidden;  background:transparent;
+    outline:none; border:none; font-size:29px;
+    font-family:"NanumSquareR"; font-weight:700;
+    letter-spacing:27px;
+}
+.text5_3{
+    width:110px; height:36px;
+    position:absolute;
+    top:546px; left:416px;
+    overflow:hidden;  background:transparent;
+    outline:none; border:none; font-size:29px;
+    font-family:"NanumSquareR"; font-weight:700;
+    letter-spacing:27px;
+}
+
+.text5_4{
+    width:110px; height:36px;
+    position:absolute;
+    top:546px; left:599px;
+    overflow:hidden;  background:transparent;
+    outline:none; border:none; font-size:29px;
+    font-family:"NanumSquareR"; font-weight:700;
+    letter-spacing:27px;
+}
+.text5_5{
+    width:170px; height:36px;
+    position:absolute;
+    top:544px; left:671px;
+    overflow:hidden;  background:transparent;
+    outline:none; border:none; font-size:29px;
+    font-family:"NanumSquareR"; font-weight:700;
+    letter-spacing:27px;
+}
+
+
+.chkOX {	position:absolute; width:1010px; height:685px;  display:none;}
+
+.confirm{
+    position:absolute;
+    width:91px; height:32px;
+    bottom:10px; left:50%; margin-left:-45px;
+    background:url(../img/write/confirm.png);
+    cursor:pointer;
+}
+
+.nextButton{
+    position:absolute;
+    right:5px; top:325px;
+    cursor:pointer;
+    display:none;
+}
+
+.keyboard{
+    background:url(../img/write/keyboard.png);
+    width:43px; height:31px; position:absolute;
+    bottom:247px; left:542px; cursor:pointer;
+}
+.keyboard2{
+    background:url(../img/write/keyboard.png);
+    width:43px; height:31px; position:absolute;
+    bottom:176px; left:695px; cursor:pointer;
+}
+

@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style></style>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css" />
+     <link rel="stylesheet" href="./css/quiz.css">
+     <link rel="stylesheet" href="./css/quiz/line.css">
+	<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.ui.touch-punch.js"></script>
+	<script type="text/javascript" src="./js/jquery.ui.touch-punch.min.js"></script>
+	<script src="./js/quiz/main.js"></script>
+<script>
+
+
+    /******************************************************
+    *   드롭 관련 변수들
+    ******************************************************/
+    var numDrops = 8;                   //드롭 갯수
+	var numDropStartInfo = new Array();
+	// [left%, top%]
+	numDropStartInfo = ["", [56, 25.5], [56, 43.5], [56, 61.5], [56, 79.5], [81, 25.5], [81, 43.5], [81, 61.5], [81, 79.5]];
+    var strDropImageFileName = "dorpDot";   //드롭 이미지소스 파일 이름
+    aDropRemove = ['']; 
+    
+    /******************************************************
+    *   드래그 관련 변수들
+    ******************************************************/
+    var numDrags = 8;                   //드래그 갯수
+	var numDragStartInfo = new Array();
+	// [left%, top%]
+	numDragStartInfo = ["", [47, 25.5], [47, 43.5], [47, 61.5], [47, 79.5], [72, 25.5], [72, 43.5], [72, 61.5], [72, 79.5] ];
+    var strDragImageFileName = "dot";   //드래그 이미지소스 파일 이름
+    aDragRemove = [''];
+    
+    /******************************************************
+    *   이미지 관련 변수들
+    ******************************************************/
+    var numImages = 8;                  //그림 갯수
+    var strPictureImageFileName = "dorpDot";    //그림 이미지소스 파일 이름
+    aImageRemove = [''];
+
+	var aResultArr = new Array();       //정답    
+    aResultArr = ['',2,3,4,1,6,7,8,5];    //정답
+	numRetry = 1;                          //선택하자마자 바로 피드백 제공시 "null"; 확인버튼 클릭시 피드백 이면 주석처리
+</script>
+</head>
+
+<body>
+	<div class = "quizBg" >	</div>
+	<div class = "mainspot">
+			<div class = "resultspot"></div>
+			<div class = "linespot"></div>
+	</div>
+    <script src="./js/quiz/line.js"></script>
+</body>
+
+</html>

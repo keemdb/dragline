@@ -1,0 +1,50 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, iframe {margin: 0; padding: 0; border: 0; font-size: 14px; vertical-align:middle;}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+
+
+ol, ul, li {list-style:none;margin:0;padding:0;ve rtical-align:middle;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+
+table {border-collapse: collapse; border-spacing: 0;width:100%;}
+
+img,fieldset{border:0;}
+li img,dd img,dt img,label img{vertical-align:middle;}
+li{line-height:100%;list-style:none}
+table{border-collapse:collapse;width:100%;}
+input,select,textarea,button{fo nt-size:12px;color:#333;}
+img,input,select{vertical-align:middle;}
+address,caption,em{font-weight:normal;font-style:normal;}
+hr{display:none;}
+
+/* base */
+html{width:100%;font-size:16.5px;font-family:"KoPubDotumMedium";}
+body{width:100%;fon t-size:14px;color:#333;line-height:1.5; }
+a{color:#333;text-decoration:none;text-decoration:none; ; fo nt-size:14px; line-height:1.5; color:#333; width:100%; height:100%}
+a:visited,a:hover,a:active,a:focus{color:#006600;}
+caption,legend{width:0;height:0;font-size:0;text-indent:-9999px;overflow:hidden;}
+
+h1,h2,h3,h4,h5,h6{fo nt-size:12px;color:#333;}
+
+button{border:0; cursor:pointer; background-color:transparent;}
+
+

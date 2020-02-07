@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+
+body{width:1010px; height:685px;position: relative;}
+.quizBg{width:100%; height:inherit;  position:absolute; top:0; left:0; background:url(../img/drag/bg.png);}
+.drag_block{width:100%; height:inherit; position:absolute; top:0; left:0; background-color:#cccccc; opacity:0; display:none; }
+
+
+#submitBtn{background:url(../img/quiz_confirm.png) no-repeat; background-size:cover; }
+
+
+.quizBtn{ position :absolute; width:105px; height:48px;  cursor:pointer; display:none;}
+
+.chkOX {	position:absolute; width:1010px; height:685px;  display:none;}
+
+.arrow { 
+    position:absolute; 
+    width: 100px; height:82px; 
+    background:url(../img/arrow.png) no-repeat; 
+    display:none;
+    animation:arrow 1s infinite linear;
+}
+
+@keyframes arrow{
+    0%{
+        transform:translateX(0);
+    }
+    50%{
+        transform:translateX(15px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
+
+.bo_box{position:absolute; bottom:100px; left:110px;}
+.bo_box div{float:left; margin-top:20px; margin-left:4.5px; cursor:pointer;}
+
+.nextButton{
+    position:absolute;
+    right:5px; top:325px;
+    cursor:pointer;
+    display:none;
+}
+
